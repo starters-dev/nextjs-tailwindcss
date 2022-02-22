@@ -1,10 +1,32 @@
 import type { NextPage } from "next";
+import { Container, Content } from "../components/Container";
+import { GoToLink } from "../components/GoToLink";
 
 const Home: NextPage = () => {
   return (
-    <div>
-      <h1 className="text-3xl font-semibold">NextJS + TailwindCSS starter</h1>
-    </div>
+    <Container title="Index">
+      <Content cardClassName="space-y-2">
+        <h1 className="text-xl font-semibold">
+          Simple starter for NextJS + TailwindCSS.
+        </h1>
+
+        <p>
+          Comes with pre-ready Docker and Traefik setup. Includes auto
+          generation of https certificates. Easy deployable on DigitalOcean and
+          similar platforms.
+        </p>
+
+        <div>
+          <div>
+            <GoToLink where="/sample" title="Sample page" />
+          </div>
+
+          <div>
+            <GoToLink where="/doesnt-exist" title="404 page" />
+          </div>
+        </div>
+      </Content>
+    </Container>
   );
 };
 
