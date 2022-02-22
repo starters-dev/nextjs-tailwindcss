@@ -36,12 +36,12 @@ You can start editing the page by modifying `pages/index.tsx`. The page auto-upd
 
 ## Deployment
 
-#### Vercel
+### Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-#### Custom server (e.g. `DigitalOcean`)
+### Custom server (e.g. `DigitalOcean`)
 
 If you'd like to run the web app on your own server instead of using platforms like Vercel, Netlify, etc., you can easily do it using provided `Dockerfile`. You just need to add the project as a service to the `docker-compose.yml` file, for example. More detailed example with Traefik proxy and https certificates autogeneration will be provided later. Meanwhile, you can check out an example [here](https://github.com/starters-dev/mattermost-traefik).
