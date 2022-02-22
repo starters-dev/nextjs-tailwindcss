@@ -44,4 +44,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ### Custom server (e.g. `DigitalOcean`)
 
-If you'd like to run the web app on your own server instead of using platforms like Vercel, Netlify, etc., you can easily do it using provided `Dockerfile`. You just need to add the project as a service to the `docker-compose.yml` file, for example. More detailed example with Traefik proxy and https certificates autogeneration will be provided later. Meanwhile, you can check out an example [here](https://github.com/starters-dev/mattermost-traefik).
+If you'd like to run the web app on your own server instead of using platforms like Vercel, Netlify, etc., you can easily do it using provided `Dockerfile`. You just need to add the project as a service to the `docker-compose.yml` file. More detailed example with Traefik proxy and https certificates autogeneration can be found [here](https://github.com/starters-dev/starters.dev-backend).
