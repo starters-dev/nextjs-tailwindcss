@@ -10,7 +10,7 @@ This is a minimal setup starter that includes:
 - Small util help methods
 - Responsiveness example
 
-## Getting Started
+## Quickstart
 
 1. Clone the repo
 
