@@ -18,7 +18,7 @@ const Page404 = () => {
 
   return (
     <Container title="404 Not Found">
-      <Content className="text-center">
+      <Content>
         <h1 className="text-xl font-semibold">Page is not found</h1>
       </Content>
     </Container>
