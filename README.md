@@ -4,7 +4,7 @@ This is a minimal setup starter that includes:
 
 - [Next.js](https://nextjs.org/) and [TailwindCSS](https://tailwindcss.com/)
 - Custom font integration
-- Custom Document (where we preload custom font)
+- Custom Document (preloading custom font)
 - Global services (for example, `/services/api`)
 - API calls service and example
 - Small util help methods
