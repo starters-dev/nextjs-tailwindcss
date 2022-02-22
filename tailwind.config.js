@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#ffc6c7",
+        primary: "#71C4C2",
       },
       fontFamily: {
         coolvetica: ["Coolvetica"],
