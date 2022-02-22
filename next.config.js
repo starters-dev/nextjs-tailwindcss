@@ -1,6 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-}
 
-module.exports = nextConfig
+  // needed for Next.js + Docker -- https://github.com/vercel/next.js/tree/canary/examples/with-docker#using-docker
+  experimental: {
+    outputStandalone: true,
+  },
+};
+
+module.exports = nextConfig;
